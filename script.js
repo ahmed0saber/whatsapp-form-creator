@@ -82,7 +82,7 @@ const encodeWhatsappNumber = (w) => {
 }
 
 const generateUrl = (whatsapp, inputs) => {
-    let urlAsString = window.location.origin + "/view.html" + "?w=" + whatsapp + "&n=" + inputs.length
+    let urlAsString = "https://ahmed0saber.github.io/whatsapp-form-creator/view.html" + "?w=" + whatsapp + "&n=" + inputs.length
     for(let i=0; i<inputs.length; i++){
         urlAsString += "&q" + (i+1) + "=" + prepareUrlForShare(inputs[i].value)
     }
