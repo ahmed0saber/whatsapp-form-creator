@@ -57,6 +57,10 @@ nav a{
     display: inline-block;
     color: #f7f7f7;
     font-size: 18px;
+    cursor: pointer;
+}
+.hero-section section a.btn:hover{
+    opacity: 0.8;
 }
 
 .create-section{
@@ -76,9 +80,6 @@ nav a{
     font-size: 18px;
     color: #2A2D34;
 }
-.create-section section a{
-    color: #019267;
-}
 .create-section section .btn{
     padding: 10px 20px;
     text-decoration: none;
@@ -88,6 +89,10 @@ nav a{
     color: #f7f7f7;
     font-size: 18px;
     border: none;
+    cursor: pointer;
+}
+.create-section section .btn:hover{
+    opacity: 0.8;
 }
 .btns-container{
     display: flex;
@@ -129,4 +134,36 @@ nav a{
 .question .delete-icon i{
     font-size: 22px;
     padding: 10px;
+}
+
+.view-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.view-section section{
+    max-width: 700px;
+}
+.view-section section h1{
+    color: #2A2D34;
+}
+.view-section section p{
+    margin: 8px 0;
+    font-size: 18px;
+    color: #2A2D34;
+}
+.view-section section .btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #019267;
+    margin: 2px 0;
+    display: inline-block;
+    color: #f7f7f7;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.view-section section .btn:hover{
+    opacity: 0.8;
 }
