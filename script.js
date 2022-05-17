@@ -180,6 +180,8 @@ const prepareUrlForShare = (url) => {
     for(let i=0; i<url.length; i++){
         if(url[i] == "?" || url[i] == "&" || url[i] == "#" || url[i] == "+"){
             preparedUrl += "*"
+        }else if(url[i] == " "){
+            preparedUrl += "%20"
         }else{
             preparedUrl += url[i]
         }
