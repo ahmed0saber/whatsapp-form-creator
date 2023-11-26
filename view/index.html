@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Form | WhatsApp Form Creator</title>
-    <link rel="stylesheet" href="./style.css?v=1.0.1">
+    <link rel="stylesheet" href="/assets/styles/globals.css">
+    <link rel="stylesheet" href="/assets/styles/view.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Cairo:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Cairo:wght@500&display=swap"
+        rel="stylesheet">
 </head>
-<body onload="getDataFromUrl()">
+
+<body>
     <nav>
-        <h3><a href="./">WhatsApp Form Creator</a></h3>
+        <h3><a href="/">WhatsApp Form Creator</a></h3>
     </nav>
     <main class="view-section">
         <section>
             <section>
-                <a class="btn" href="./">Back To Home</a>
-                <p>Fill the below fields, then press Submit, your answers will be sent to WhatsApp of this form owner.</p>
+                <a class="btn" href="/">Back To Home</a>
+                <p>Fill the below fields, then press Submit, your answers will be sent to WhatsApp of this form owner.
+                </p>
             </section>
             <section>
                 <div class="questions-container"></div>
-                <button class="btn" onclick="validateAnswers()">Submit Answers</button>
+                <button class="btn btn-submit">Submit Answers</button>
             </section>
         </section>
     </main>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.all.min.js"></script>
-<script src="./script.js?v=1.0.3"></script>
+<script src="/assets/scripts/view.js"></script>
+
 </html>

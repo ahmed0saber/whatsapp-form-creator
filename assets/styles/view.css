@@ -1,0 +1,36 @@
+.view-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.view-section section {
+    max-width: 700px;
+}
+
+.view-section section h1 {
+    color: #2A2D34;
+}
+
+.view-section section p {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #2A2D34;
+}
+
+.view-section section .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #019267;
+    margin: 2px 0;
+    display: inline-block;
+    color: #f7f7f7;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.view-section section .btn:hover {
+    opacity: 0.8;
+}
